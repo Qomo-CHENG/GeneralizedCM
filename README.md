@@ -3,7 +3,7 @@ We present a unified framework for quantifying the side-channel resistance of th
 
 The overview of GCM as follows <sup>[[under_submission]](#references)</sup>.
 <div class="img-wrap" style="text-align:center">
-<img src="./figs/generalizedCM.png" width="512">
+<img src="https://anonymous.4open.science/r/9f2df90c-5d8d-4fbf-a9b4-ff6577bcb5a9/figs/generalizedCM.png" width="512">
 </div>
 
 - [x] A note of caution: the abbreviation GCM here should not be confused with the Galois/Counter Mode (GCM), which is a mode of operation for symmetric-key block ciphers (e.g., AES-GCM).
