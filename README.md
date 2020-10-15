@@ -1,7 +1,7 @@
 ## 1 Generalized Code-based Masking
 We present a unified framework for quantifying the side-channel resistance of the Generalized Code-based Masking (GCM). We call the GCM, which includes Direct Sum Masking (DSM), Leakage Squeezing (LS), Inner Product Masking (IPM), Shamir's Secret Sharing (SSS) based polynomial masking and also Boolean masking. 
 
-The overview of GCM as follows <sup>[[under_submission]](#references)</sup>.
+The overview of GCM as follows. <!--<sup>[[under_submission]](#references)</sup>-->
 <div class="img-wrap" style="text-align:center">
 <img src="./figs/generalizedCM.png" width="512">
 </div>
