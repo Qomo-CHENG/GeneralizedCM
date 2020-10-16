@@ -24,6 +24,12 @@ See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)** in Section 2.
 
+### 2.3 (5,2)-SSS-based masking on $l$=4 bits
+
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)
+
+The optimal codes are given in **[Tab. II](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
+
 ## 3 Magma scripts
 
 We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.log) for weight enumerators of the corresponding linear codes.
