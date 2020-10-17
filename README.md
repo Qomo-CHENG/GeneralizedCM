@@ -24,11 +24,17 @@ See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)** in Section 2.
 
+An information-theoretic investigation (by mutual information) of all codes for (3,1)-SSS based polynomial masking are shown below. Note that one of the three optimal codes is the black curve in Fig. 4.
+The overview of GCM as follows. <!--<sup>[[under_submission]](#references)</sup>-->
+<div class="img-wrap" style="text-align:center">
+<img src="./figs/gcm_optimal_codes_SSS.png" width="768">
+</div>
+
 ### 2.3 (5,2)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb.pdf)
 
-The optimal codes are given in **[Tab. II](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
+The optimal codes are given in **[Tab. II](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb.pdf)** in Section 2.
 
 ## 3 Magma scripts
 
