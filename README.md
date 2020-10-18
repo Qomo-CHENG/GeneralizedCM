@@ -31,9 +31,9 @@ An information-theoretic investigation (by mutual information) of all codes for 
 
 ### 2.3 (5,2)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb.pdf)
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)
 
-The optimal codes are given in **[Tab. II](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb.pdf)** in Section 2.
+The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
 
 ## 3 Magma scripts
 
