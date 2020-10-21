@@ -10,7 +10,7 @@ The overview of GCM as follows. <!--<sup>[[under_submission]](#references)</sup>
 
 The uniform representation of encoding in GCM is: $Z=X\mathbf{G}+Y\mathbf{H}$ where $Z,X,Y$ are the masked variable, the sensitive variable and the random masks, $\mathbf{G}$ an d$\mathbf{H}$ are generator matrices of the linear codes $\mathcal{C}$ and $\mathcal{D}$, respectively. Relying on the unified representation, the comparison of encodings in above code-based masking are shown below. 
 <div class="img-wrap" align=center>
-<img src="./figs/gcm_encodings.png" width="512">
+<img src="./figs/gcm_encodings.png" width="768">
 </div>
 
 ## 2 Optimal codes for SSS-based masking & GCM
