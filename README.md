@@ -1,15 +1,19 @@
 ## 1 Generalized Code-based Masking
-We present a unified framework for quantifying the side-channel resistance of the Generalized Code-based Masking (GCM). We call the GCM, which includes Direct Sum Masking (DSM), Leakage Squeezing (LS), Inner Product Masking (IPM), Shamir's Secret Sharing (SSS) based polynomial masking and also Boolean masking. 
+We present a unified framework for quantifying the side-channel resistance of the Generalized Code-based Masking (GCM). We call the GCM, which includes Direct Sum Masking (DSM), Leakage Squeezing (LS), Inner Product Masking (IPM), Shamir's Secret Sharing (SSS) based polynomial masking and also Boolean masking. Note that the Boolean masking is not a special case of SSS-based masking.
 
-The overview of GCM as follows. <!--<sup>[[under_submission]](#references)</sup>-->
+- [x] A note of caution: the abbreviation GCM here should not be confused with the Galois/Counter Mode (GCM), which is a mode of operation for symmetric-key block ciphers (e.g., AES-GCM).
 
+The overview of GCM as follows. <!--<sup>[[under_submission]](#references)</sup>--> 
 <div class="img-wrap" style="text-align:center">
 <img src="./figs/generalizedCM.png" width="512">
 </div>
 
-- [x] A note of caution: the abbreviation GCM here should not be confused with the Galois/Counter Mode (GCM), which is a mode of operation for symmetric-key block ciphers (e.g., AES-GCM).
+The uniform representation of encoding in GCM is: $Z=X\mathbf{G}+Y\mathbf{H}$ where $Z,X,Y$ are the masked variable, the sensitive variable and the random masks, $\mathbf{G}$ an d$\mathbf{H}$ are generator matrices of the linear codes $\mathcal{C}$ and $\mathcal{D}$, respectively. Relying on the unified representation, the comparison of encodings in above code-based masking are shown below. 
+<div class="img-wrap" style="text-align:center">
+<img src="./figs/gcm_encodings.png" width="512">
+</div>
 
-## 2 Optimal codes for SSS-based masking
+## 2 Optimal codes for SSS-based masking & GCM
 
 As the applications, we present hereafter an exhaustive study of the linear codes for (3,1)-SSS-based masking with $n=3$ shares and $t=1$, and show the optimal codes that can be a takeaway conclusion.
 
@@ -25,7 +29,7 @@ See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)** in Section 2.
 
-An information-theoretic investigation (by mutual information) of all codes for (3,1)-SSS based polynomial masking are shown below. Note that one of the three optimal codes is the black curve in Fig. 4.
+An information-theoretic investigation (by mutual information) of seven codes for (3,1)-SSS based polynomial masking are shown below. Note that one of the three optimal codes is the black curve in Fig. 4.
 <div class="img-wrap" style="text-align:center">
 <img src="./figs/gcm_optimal_codes_SSS.png" width="768">
 </div>
