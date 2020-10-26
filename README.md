@@ -19,13 +19,13 @@ As the applications, we present hereafter an exhaustive study of the linear code
 
 ### 2.1 (3,1)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb)
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_3_1_4b.ipynb.pdf]())
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb)** in Section 2.
 
 ### 2.2 (3,1)-SSS-based masking on $l$=8 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)
+See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_3_1_8b.ipynb.pdf]())
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)** in Section 2.
 
@@ -36,7 +36,7 @@ An information-theoretic investigation (by mutual information) of seven codes fo
 
 ### 2.3 (5,2)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_5_2_4b.ipynb.pdf]())
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
 
