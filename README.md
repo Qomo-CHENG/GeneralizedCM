@@ -40,6 +40,12 @@ See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
 
+### 2.4 (5,2)-SSS-based masking on $l$=8 bits
+
+See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_5_2_8b.ipynb.pdf]())
+
+Part of codes with the maximized **dual distance d** are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb)** in Section 2. We also provide all possible values of $B_d$ when $d$ equals 6 in Table III.
+
 ## 3 Magma scripts
 
 We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.log) for weight enumerators of the corresponding linear codes.
