@@ -7,11 +7,13 @@ The overview of GCM is as follows. <!--<sup>[[under_submission]](#references)</s
 <div class="img-wrap" align=center>
 <img src="./figs/generalizedCM.png" width="512">
 </div>
+<br/>
 
 The uniform representation of encoding in GCM is: $Z=X\mathbf{G}+Y\mathbf{H}$ where $Z,X,Y$ are the masked variable, the sensitive variable and the random masks, $\mathbf{G}$ an d$\mathbf{H}$ are generator matrices of the linear codes $\mathcal{C}$ and $\mathcal{D}$, respectively. Relying on the unified representation, the comparison of encodings in above code-based masking are shown below. 
 <div class="img-wrap" align=center>
 <img src="./figs/gcm_encodings.png" width="768">
 </div>
+<br/>
 
 ## 2 Optimal codes for SSS-based masking & GCM
 
@@ -23,6 +25,12 @@ See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb)** in Section 2.
 
+Some codes with different parameters are shown as follows.
+<div class="img-wrap" align=center>
+<img src="./figs/sss_optimal_codes_n3t1b4.png" width="768">
+</div>
+<br/>
+
 ### 2.2 (3,1)-SSS-based masking on $l$=8 bits
 
 See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_3_1_8b.ipynb.pdf]())
@@ -33,6 +41,13 @@ An information-theoretic investigation (by mutual information) of seven codes fo
 <div class="img-wrap" align=center>
 <img src="./figs/gcm_optimal_codes_SSS.png" width="768">
 </div>
+<br/>
+
+Some codes with different parameters are shown as follows.
+<div class="img-wrap" align=center>
+<img src="./figs/sss_optimal_codes_n3t1b8.png" width="768">
+</div>
+<br/>
 
 ### 2.3 (5,2)-SSS-based masking on $l$=4 bits
 
@@ -40,24 +55,38 @@ See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.ju
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
 
+Some codes with different parameters are shown as follows.
+<div class="img-wrap" align=center>
+<img src="./figs/sss_optimal_codes_n5t2b4.png" width="768">
+</div>
+<br/>
+
 ### 2.4 (5,2)-SSS-based masking on $l$=8 bits
 
 See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_5_2_8b.ipynb.pdf]())
 
 Part of codes with the maximized **dual distance d** are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb)** in Section 2. We also provide all possible values of $B_d$ when $d$ equals 6 in Table III.
 
+<br/>
+
 ## 3 Magma scripts
 
 We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.log) for weight enumerators of the corresponding linear codes.
 
+<br/>
+
 ## Authors
 - XXX XXX 
 - XXX XXX (Anonymized under the submission process)
+
+<br/>
 
 ## Copyright and License
 
 This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
 
 Copyright (C) 2020. All Rights Reserved to Authors.
+
+<br/>
 
 ## References
