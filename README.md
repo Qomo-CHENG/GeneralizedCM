@@ -67,6 +67,10 @@ See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.ju
 
 Part of codes with the maximized **dual distance d** are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb)** in Section 2. We also provide all possible values of $B_d$ when $d$ equals 6 in Table III.
 
+Some codes with different parameters are shown as follows.
+<div class="img-wrap" align=center>
+<img src="./figs/sss_optimal_codes_n5t2b8.png" width="768">
+</div>
 <br/>
 
 ## 3 Magma scripts
