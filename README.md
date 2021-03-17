@@ -86,7 +86,7 @@ We share the Magma scripts to easily check the validity of our results, see here
 
 <br/>
 
-## Authors
+## Contacts
 - Wei Cheng (wei.cheng AT telecom-paris.fr)
 - Sylvain Guilley (sylvain.guilley AT secure-ic.com)
 
