@@ -1,7 +1,7 @@
 <h1 align="center">Open-source for Quantifying Information
 Leakages in GCM</h1>
 
-This repo is created for the source code of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://ches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to reproduce our results.
+This repo is created for the open-source of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://ches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to verify and reproduce our results.
 
 
 ## 1 Generalized Code-based Masking
@@ -82,7 +82,7 @@ Some codes with different parameters are shown as follows.
 
 ## 3 Magma scripts
 
-We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.log) for weight enumerators of the corresponding linear codes.
+We share the Magma scripts to easily check the validity of our results, see here: [Magma scripts](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/GeneralizedCM/blob/master/magma/gen_codes_sss_3_1_4b.log) for weight enumerators of the corresponding linear codes.
 
 <br/>
 
@@ -94,7 +94,7 @@ We share the Magma scripts to easily check the validity of our results. See here
 
 ## Copyright and License
 
-This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
+This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the [GNU General Public License version 3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 Copyright (C) 2020. All Rights Reserved to Authors.
 
@@ -102,9 +102,9 @@ Copyright (C) 2020. All Rights Reserved to Authors.
 
 ## References
 
-[[1]](#references) Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
+[[BFG+17]](#references) Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
 Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
 
-[[2]](#references) Weijia Wang, Pierrick Méaux, Gaëtan Cassiers, François-Xavier Standaert. Efficient and Private Computations with Code-Based Masking. IACR Trans. Cryptogr. Hardw. Embed. Syst. 2020(2): 128-171 (2020)
+[[WMCS20]](#references) Weijia Wang, Pierrick Méaux, Gaëtan Cassiers, François-Xavier Standaert. Efficient and Private Computations with Code-Based Masking. IACR Trans. Cryptogr. Hardw. Embed. Syst. 2020(2): 128-171 (2020).
 
-[[3]](#references) Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
+[[CGC+20]](#references) Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
