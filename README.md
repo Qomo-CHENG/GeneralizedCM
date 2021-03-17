@@ -1,11 +1,18 @@
+<h1 align="center">Open-source for Quantifying Information
+Leakages in GCM</h1>
+
+This repo is created for the source code of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://tches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to reproduce our results.
+
+
 ## 1 Generalized Code-based Masking
+
 We present a unified framework for quantifying the side-channel resistance of the Generalized Code-based Masking (GCM). We call the GCM, which includes Direct Sum Masking (DSM), Leakage Squeezing (LS), Inner Product Masking (IPM), Shamir's Secret Sharing (SSS) based polynomial masking and also Boolean masking. Note that the Boolean masking is not a special case of SSS-based masking.
 
 - [x] A note of caution: the abbreviation GCM here should not be confused with the Galois/Counter Mode (GCM), which is a mode of operation for symmetric-key block ciphers (e.g., AES-GCM).
 
 The overview of GCM is as follows. <!--<sup>[[under_submission]](#references)</sup>--> 
 <div class="img-wrap" align=center>
-<img src="./figs/generalizedCM.png" width="512">
+<img src="./figs/generalizedCM.png" width="640">
 </div>
 <br/>
 
@@ -21,7 +28,7 @@ As the applications, we present hereafter an exhaustive study of the linear code
 
 ### 2.1 (3,1)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_3_1_4b.ipynb.pdf]())
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_4b.ipynb)** in Section 2.
 
@@ -33,7 +40,7 @@ Some codes with different parameters are shown as follows.
 
 ### 2.2 (3,1)-SSS-based masking on $l$=8 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_3_1_8b.ipynb.pdf]())
+See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_3_1_8b.ipynb)** in Section 2.
 
@@ -51,7 +58,7 @@ Some codes with different parameters are shown as follows.
 
 ### 2.3 (5,2)-SSS-based masking on $l$=4 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_5_2_4b.ipynb.pdf]())
+See here: [Optimal codes for SSS-based masking (**$l$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_4b.ipynb)** in Section 2.
 
@@ -63,7 +70,7 @@ Some codes with different parameters are shown as follows.
 
 ### 2.4 (5,2)-SSS-based masking on $l$=8 bits
 
-See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb) (The fully rendered Jupyter notebook is pregenerated in PDF format for anonymous reviewing: [./python/optimal_codes_sss_5_2_8b.ipynb.pdf]())
+See here: [Optimal codes for SSS-based masking (**$l$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb)
 
 Part of codes with the maximized **dual distance d** are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/GeneralizedCM/blob/master/python/optimal_codes_sss_5_2_8b.ipynb)** in Section 2. We also provide all possible values of $B_d$ when $d$ equals 6 in Table III.
 
@@ -80,8 +87,8 @@ We share the Magma scripts to easily check the validity of our results. See here
 <br/>
 
 ## Authors
-- XXX XXX 
-- XXX XXX (Anonymized under the submission process)
+- Wei Cheng (wei.cheng AT telecom-paris.fr)
+- Sylvain Guilley
 
 <br/>
 
@@ -94,3 +101,10 @@ Copyright (C) 2020. All Rights Reserved to Authors.
 <br/>
 
 ## References
+
+[[1]](#references) Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
+Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
+
+[[2]](#references) Weijia Wang, Pierrick Méaux, Gaëtan Cassiers, François-Xavier Standaert. Efficient and Private Computations with Code-Based Masking. IACR Trans. Cryptogr. Hardw. Embed. Syst. 2020(2): 128-171 (2020)
+
+[[3]](#references) Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
