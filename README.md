@@ -1,7 +1,7 @@
 <h1 align="center">Open-source for Quantifying Information
 Leakages in GCM</h1>
 
-This repo is created for the source code of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://tches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to reproduce our results.
+This repo is created for the source code of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://ches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to reproduce our results.
 
 
 ## 1 Generalized Code-based Masking
