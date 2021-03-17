@@ -24,7 +24,9 @@ The uniform representation of encoding in GCM is: $Z=X\mathbf{G}+Y\mathbf{H}$ wh
 
 ## 2 Optimal codes for SSS-based masking & GCM
 
-As the applications, we present hereafter an exhaustive study of the linear codes for (3,1)-SSS-based masking with $n=3$ shares and $t=1$, and show the optimal codes that can be a takeaway conclusion.
+As the applications, we present hereafter an exhaustive study of the linear codes for two cases of $n$ and $t$ show the optimal codes that can be a takeaway conclusion. Specifically,
+  - (3,1)-SSS-based masking with $n=3$ shares and $t=1$
+  - (5,2)-SSS-based masking with $n=5$ shares and $t=2$
 
 ### 2.1 (3,1)-SSS-based masking on $l$=4 bits
 
