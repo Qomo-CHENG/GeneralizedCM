@@ -3,6 +3,8 @@ Leakages in GCM</h1>
 
 This repo is created for the open-source of the paper `Information Leakages in Code-based Masking: A Unified Quantification Approach`, which would appear in [TCHES 2021](https://ches.iacr.org/2021), issue 3. All the data and scripts would allow researchers to verify and reproduce our results.
 
+- [x] We recommend the [Mathjax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) on Chrome to have a better display of mathematical formulas.
+
 
 ## 1 Generalized Code-based Masking
 
