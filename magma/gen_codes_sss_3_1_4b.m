@@ -25,7 +25,7 @@ for j:= 1 to 13 do
 		//print "Dual code: ", Dual(D_1);   
 		//SubfieldRepresentationCode(Dual(D_1), GF(2, 1));   
 		print "WD dual D (word): ", WeightDistribution(Dual(D_1)); 
-		print "WD dual D  (bit): ", WeightDistribution((SubfieldRepresentationCode(Dual(D_1), GF(2))));
+		print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D_1, GF(2))));
 	end for;
 end for;
 
